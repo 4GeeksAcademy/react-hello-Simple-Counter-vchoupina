@@ -26,9 +26,9 @@ const Home = () => {
     return (
         <div className="App">
             <SecondsCounter seconds={seconds} />
-            <button onClick={handleStart}>Start</button>
-            <button onClick={handleStop}>Stop</button>
-            <button onClick={handleReset}>Reset</button>
+            <button type='button' className='btn btn-success' onClick={handleStart}>Start</button>
+            <button type='button' className='btn btn-danger' onClick={handleStop}>Stop</button>
+            <button type='button' className='btn btn-light' onClick={handleReset}>Reset</button>
         </div>
     );
 };

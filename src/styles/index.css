@@ -4,17 +4,15 @@
     font-size: 5rem;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: rgb(216, 216, 216);
+    color: rgb(0, 0, 0);
     padding: 1rem;
     border-radius: 0.5rem;
 }
 .calendar {
     margin-right: 1rem;
 }
-.calendar i {
-    font-size: 5rem;
-}
+
 button {
     font-size: 1rem;
     margin: 0.5rem;
@@ -22,4 +20,11 @@ button {
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
+}
+
+.App {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
 }
